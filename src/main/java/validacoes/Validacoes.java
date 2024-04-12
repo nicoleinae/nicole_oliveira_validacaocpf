@@ -11,9 +11,7 @@ public class Validacoes {
             return false;
         }
     }
-<<<<<<< Updated upstream
-    
-=======
+
     public boolean numeros(String cpf) {
         String cpfcopia = removerPontosTracos(cpf);
         try {
@@ -22,7 +20,6 @@ public class Validacoes {
         } catch (NumberFormatException e) {
             return false;
         }
->>>>>>> Stashed changes
     }
 
     public String removerPontosTracos(String cpf) {
