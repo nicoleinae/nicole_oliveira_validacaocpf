@@ -3,13 +3,20 @@ package validacoes;
 public class Validacoes {
 
     public boolean tamanho(String cpf) {
-        if (cpf.length() == 11) {
+        String cpfcopia = removerPontosTracos(cpf);
+        if (cpfcopia.length() == 11) {
             return true;
         }
         else {
             return false;
         }
     }
+
+    public boolean numeros(String cpf) {
+        String cpfcopia = removerPontosTracos(cpf);
+        try {
+            Long.parseLong(cpfcopia);
+
     public boolean numeros(String cpf) {
         try {
             Long.parseLong(cpf);
@@ -19,5 +26,8 @@ public class Validacoes {
         }
     }
 
+    public String removerPontosTracos(String cpf) {
+        return cpf.replaceAll("[.-]", "");
+    }
 
 }
