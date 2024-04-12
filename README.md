@@ -39,15 +39,21 @@ Dada a lista de CPFs, o sistema deve imprimir:
 
 ## Criação das Branches
 
-- **Branch dev:**
+- **Branch task-01:**
     - Criada a partir da branch `main`.
     - Destinada ao desenvolvimento da task 01:
+      - Montar estrutura do programa;
+      - Validação de tamanho 11.
 
+- **Branch task-02:**
+    - Criada a partir da branch `main`.
+    - Destinada ao desenvolvimento da task 02:
+      - Verificação se é numerico.
 
 ##Relatos:
-- senti bastante dificuldade para instanciar o objeto pois fiquei tentando usar os metodos da classe para acessar o objeto, com a ajuda da squad simplifiquei o processo.
-- tive um problema com o metodo toString do objeto cpf, ao gerar pelo IDE, senti facilidade em identificar o problema.
-
+- Senti bastante dificuldade para instanciar o objeto pois fiquei tentando usar os metodos da classe para acessar o objeto, com a ajuda da squad simplifiquei o processo.
+- Tive um problema com o metodo toString do objeto cpf, ao gerar pelo IDE, senti facilidade em identificar o problema.
+- Após conversar com a squad sujeri desenvolver essa verificação utilizando um try-catch.
 
 **Tipos de commit:**
 
