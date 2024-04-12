@@ -42,3 +42,24 @@ Dada a lista de CPFs, o sistema deve imprimir:
 - **Branch dev:**
     - Criada a partir da branch `main`.
     - Destinada ao desenvolvimento da task 01:
+
+
+##Relatos:
+- senti bastante dificuldade para instanciar o objeto pois fiquei tentando usar os metodos da classe para acessar o objeto, com a ajuda da squad simplifiquei o processo.
+- tive um problema com o metodo toString do objeto cpf, ao gerar pelo IDE, senti facilidade em identificar o problema.
+
+
+**Tipos de commit:**
+
+**feat:** Para commits que adicionam uma nova funcionalidade ao projeto. Exemplo de mensagem de commit: "feat: Adicionada seção de criação das branches no README.md".
+
+**docs:** Para commits que apenas alteram a documentação, como o README.md. Exemplo de mensagem de commit: "docs: Documentado processo de criação das branches no README.md".
+
+**chore:** Para commits relacionados a tarefas de manutenção ou organização do código, como a adição de scripts ou configurações. Exemplo de mensagem de commit: "chore: Adicionado arquivo .gitignore".
+
+**fix:** Para commits que corrigem um bug no código. Exemplo de mensagem de commit: "fix: Corrigido erro de digitação no README.md".
+
+**refactor:** Para commits que reestruturam o código sem alterar seu comportamento. Exemplo de mensagem de commit: "refactor: Reorganizado código na classe X para melhor legibilidade".
+
+**style:** Para commits que fazem ajustes na formatação do código, como espaçamento, indentação, etc. Exemplo de mensagem de commit: "style: Corrigido espaçamento inconsistente no arquivo Y".
+
