@@ -13,9 +13,9 @@ Enquanto isso, deve-se garantir que a lista de CPFs válidos não contenha dupli
   task-01
   Montar estrutura do programa
   - entrada
-    - processo
-    - saida (impressão)
-    - Validação de tamanho 11
+  - processo
+  - saida (impressão)
+  - Validação de tamanho 11
 
   Se o tamanho for 11, é válido.
   Se o tamanho não for 11, é inválido.
@@ -37,52 +37,33 @@ Dada a lista de CPFs, o sistema deve imprimir:
  - Lista de CPFs válidos:
  - Lista de CPFs inválidos:
 
-## Criação das Branches##
-
-task-03
--**Branch task-01:**
-
-- Criada a partir da branch main.
-- Destinada ao desenvolvimento da task 01:
-  - Montar estrutura do programa;
-  - Validação de tamanho 11.
-
--**Branch task-02:**
-
-- Criada a partir da branch main.
-- Destinada ao desenvolvimento da task 02:
-  - Verificação se é numerico.
-
--**Branch task-03:**
-
-- Criada a partir da branch main.
-- Destinada ao desenvolvimento da task 03:
-    -  Retirada de pontos e traços.
-
-##Relatos:
+ # Relatos sobre o desenvolvimento do projeto:
 - Senti bastante dificuldade para instanciar o objeto, fiquei tentando usar os métodos da classe para acessar o objeto, com a ajuda da squad simplifiquei o processo.
 - Tive um problema com o método toString do objeto cpf, ao gerar pelo IDE, senti facilidade em identificar o problema.
 - Em conversa com a squad, sugeri desenvolver essa verificação utilizando um try-catch e todos optamos por tentar implementar dessa forma.
 - Diversas vezes tive problemas com o git por conta da pasta .idea, recebi ajuda de um instrutor e também realizei pesquisas para resolver o problema.
 - Todas as vezes que procuro os instrutores recebo respostas rápidas e sou encorajada a procurar como resolver o problema, o que desenvolve minha autonomia.
 
-- **Branch task-01:**
-    - Criada a partir da branch `main`.
-    - Destinada ao desenvolvimento da task 01:
-      - Montar estrutura do programa;
-      - Validação de tamanho 11.
+# Criação das Branches##
+Este projeto segue uma estrutura de desenvolvimento baseada em branches. Aqui está o processo utilizado para criar as branches:
 
-- **Branch task-02:**
-    - Criada a partir da branch `main`.
-    - Destinada ao desenvolvimento da task 02:
-      - Verificação se é numerico.
+-**Branch task-01:**
+- Criada a partir da branch main.
+- Destinada ao desenvolvimento da task 01:
+  - Montar estrutura do programa;
+  - Validação de tamanho 11.
 
-##Relatos:
-- Senti bastante dificuldade para instanciar o objeto pois fiquei tentando usar os metodos da classe para acessar o objeto, com a ajuda da squad simplifiquei o processo.
-- Tive um problema com o metodo toString do objeto cpf, ao gerar pelo IDE, senti facilidade em identificar o problema.
-- Após conversar com a squad sujeri desenvolver essa verificação utilizando um try-catch.
+-**Branch task-02:**
+- Criada a partir da branch main.
+- Destinada ao desenvolvimento da task 02:
+  - Verificação se é numerico.
 
-## Tipos de commit:
+-**Branch task-03:**
+- Criada a partir da branch main.
+- Destinada ao desenvolvimento da task 03:
+    -  Retirada de pontos e traços.
+
+#Tipos de commit:
 
 **feat:** Para commits que adicionam uma nova funcionalidade ao projeto. Exemplo de mensagem de commit: "feat: Adicionada seção de criação das branches no README.md".
 
