@@ -22,6 +22,6 @@ public class Main {
         listaCPF.add(new CPF("123.123.123-24"));
         listaCPF.add(new CPF("123.123.123-241"));
 
-
+        
     }
 }
