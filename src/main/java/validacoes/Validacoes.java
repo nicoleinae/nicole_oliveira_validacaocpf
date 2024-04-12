@@ -3,7 +3,12 @@ package validacoes;
 public class Validacoes {
 
     public boolean tamanho(String cpf) {
-        return cpf != null && cpf.length() == 11;
+        if (cpf.length() == 11) {
+            return true;
+        }
+        else {
+            return false;
+        }
     }
 
 }

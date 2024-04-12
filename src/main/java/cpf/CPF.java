@@ -15,4 +15,10 @@ public class CPF {
     public CPF(String cpf) {
         this.cpf = cpf;
     }
+
+    @Override
+    public String toString() {
+        return cpf;
+
+    }
 }
