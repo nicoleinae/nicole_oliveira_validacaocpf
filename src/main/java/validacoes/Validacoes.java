@@ -16,6 +16,10 @@ public class Validacoes {
         String cpfcopia = removerPontosTracos(cpf);
         try {
             Long.parseLong(cpfcopia);
+
+    public boolean numeros(String cpf) {
+        try {
+            Long.parseLong(cpf);
             return true;
         } catch (NumberFormatException e) {
             return false;

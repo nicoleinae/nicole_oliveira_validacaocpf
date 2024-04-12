@@ -33,11 +33,15 @@ public class Main {
         // task 01 que verifica o tamanho
         for (CPF cpf : listaCPF) {
             String stringcpf = cpf.toString();
+
             if (validacoes.tamanho(stringcpf)) {
                 if (!setCPFsValidos.contains(cpf)) {
                     setCPFsValidos.add(cpf);
                 }
-            } else {
+            if (validacoes.tamanho(stringcpf) && validacoes.numeros(stringcpf)) {
+                listaCPFValidos.add(new CPF(stringcpf));
+            } 
+              else {
                 listaCPFsInvalidos.add(cpf);
             }
         }
