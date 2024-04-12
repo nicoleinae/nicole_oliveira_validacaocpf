@@ -10,7 +10,13 @@ public class Validacoes {
             return false;
         }
     }
-    
+    public boolean numeros(String cpf) {
+        try {
+            Long.parseLong(cpf);
+            return true;
+        } catch (NumberFormatException e) {
+            return false;
+        }
     }
 
 
