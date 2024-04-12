@@ -45,6 +45,8 @@ Dada a lista de CPFs, o sistema deve imprimir:
 
 
 ##Relatos:
+- senti bastante dificuldade para instanciar o objeto pois fiquei tentando usar os metodos da classe para acessar o objeto, com a ajuda da squad simplifiquei o processo.
+- tive um problema com o metodo toString do objeto cpf, ao gerar pelo IDE, senti facilidade em identificar o problema.
 
 
 **Tipos de commit:**
